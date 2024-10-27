@@ -16,7 +16,7 @@
 }
 
 .headerBackground {
-	height: 115px;
+	height: 90px;
 	background-color: rgba($header-color, $header-transparency);
 }
 
@@ -101,7 +101,7 @@ header {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	height: 115px;
+	height: 90px;
 	margin-right: 30px;
 }
 
@@ -154,7 +154,7 @@ header {
 	align-items: center;
 	justify-content: flex-end;
 
-	height: 115px;
+	height: 90px;
 	//margin-left: 15px;
 
 	white-space: nowrap;
@@ -633,7 +633,7 @@ footer {
 .footerLinks {
 	display: flex;
 	text-align: center;
-	padding-bottom: 70px;
+	padding-bottom: 30px;
 }
 
 .footerLinks a {
@@ -685,3 +685,12 @@ footer {
 .hidden {
 	display: none;
 }
+
+.copyright {
+	flex-basis: 100%; /* Ensures it takes up the full width if flex-wrap is applied */
+	text-align: center;
+	margin-top: 10px;
+	font-size: 0.8em;
+	color: #888;
+	padding-bottom: 20px;
+} 
