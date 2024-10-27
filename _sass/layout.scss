@@ -1,5 +1,5 @@
 .imageWrapper {					// Sets the background image in the header area
-	height: 714px;
+	height: 664px;
 	background: 
 		linear-gradient(
 		rgba($image-overlay-color, $image-overlay-transparency), 
@@ -39,7 +39,7 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 876px auto auto;
+	grid-template-rows: 115px 650px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
@@ -127,10 +127,10 @@ header {
 } 
 
 .headerIcon {
-	width: 50px;
-	height: 50px;
-	-webkit-clip-path: url(#shape);
-	clip-path: url(#shape);
+	width: 175px;
+	height: auto;
+	// -webkit-clip-path: url(#shape);
+	// clip-path: url(#shape);
 }
 
 @media only screen and (max-width: 768px) {
@@ -246,8 +246,9 @@ nav > ul li a:active {
 	grid-area: i;
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 140px;
+	padding-top: 100px;
 	align-content: flex-start;
+	height: fit-content;
 }
 
 @media only screen and (max-width: 992px) {
@@ -368,6 +369,9 @@ nav > ul li a:active {
 		margin-bottom: 24px;
 	}
 	
+	.headerIcon {
+		width: 100px;
+	}
 } 
 
 .appStore {
@@ -381,13 +385,13 @@ nav > ul li a:active {
 .iphonePreview {
 	grid-area: p;
 	background-image: url($device-color);
-	background-size: 400px auto;
+	background-size: 300px auto;
 	background-repeat: no-repeat;
-	margin-top: 68px;
+	margin-top: 28px;
 }
 
 .iphoneScreen {
-	width: 349px;
+	width: 249px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
 	margin-left: 26px;
