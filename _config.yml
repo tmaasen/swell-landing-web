@@ -31,17 +31,17 @@ features                                  :
     description: "Discover trends with a complete view of your food and mood patterns."
     fontawesome_icon_name: "chart-line"
 
-  - title: "Custom Items with MyMeals"
-    description: "Build and save personalized meal items."
+  - title: "Custom Foods with MyMeals"
+    description: "Build and save personalized meals."
     fontawesome_icon_name: "clipboard-list"
 
   - title: "Favorites for Quick Logging"
     description: "Quickly log your favorite meals with one tap."
     fontawesome_icon_name: "star"
 
-  - title: "AI Integration"
-    description: "Get personalized insights and tips from your AI assistant."
-    fontawesome_icon_name: "robot"
+  # - title: "AI Integration"
+  #   description: "Get personalized insights and tips from your AI assistant."
+  #   fontawesome_icon_name: "robot"
 
   - title: "Recurring Logs for Consistent Habits"
     description: "Automate logging for everyday meals while customizing your mood logs."
@@ -80,16 +80,6 @@ social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
 footer_text_color                         : "#666666"
-
-
-
-
-
-
-
-
-
-
 
 
 
